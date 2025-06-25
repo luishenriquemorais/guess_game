@@ -63,8 +63,8 @@ Frontend: http://localhost:3000
 - Rebuild apenas os containers do backend:
 
 ```bash
-docker compose build backend1 backend2
-docker compose up -d
+docker-compose build backend1 backend2
+docker-compose up -d
 ```
 
 ### Atualizar o Frontend
@@ -73,8 +73,8 @@ docker compose up -d
 - Rebuild o frontend:
 
 ```bash
-docker compose build frontend
-docker compose up -d
+docker-compose build frontend
+docker-compose up -d
 ```
 
 ### Atualizar a versão do PostgreSQL
@@ -89,14 +89,14 @@ db:
 - Baixe a nova imagem e reinicie:
 
 ```bash
-docker compose pull db
-docker compose up -d
+docker-compose pull db
+docker-compose up -d
 ```
 
 ## Deletar os serviços
 
 ```bash
-docker compose down
+docker-compose down
 ```
 
 ## Observações Finais
