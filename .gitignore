@@ -1,0 +1,12 @@
+.venv
+.vscode
+Dockerfile*
+docker-compose*
+*/__pycache__/*
+db/*
+*.sqlite3
+*.pyc
+*.pyo
+bin/
+*.lock
+
