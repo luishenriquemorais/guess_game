@@ -9,5 +9,4 @@ RUN apt-get update && \
 
 EXPOSE 5000
 
-# Correção no comando CMD para iniciar o Flask corretamente
 CMD ["flask", "run", "--host=0.0.0.0"]
