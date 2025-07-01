@@ -44,9 +44,11 @@ O serviço `frontend` usa o NGINX como:
 - Docker
 - Docker Compose v2+
 
-### 2. Dentro do repositório `guess_game`, execute:
+### 2. Faça o Git Clone do repositório, execute:
 
 ```bash
+git clone https://github.com/luishenriquemorais/guess_game.git
+cd guess_game
 docker-compose up --build -d
 ```
 
