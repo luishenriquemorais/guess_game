@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  db:
+  postgres:
     image: postgres:16-alpine
     container_name: postgres
     restart: always
@@ -28,7 +28,7 @@ services:
       FLASK_DB_HOST: "postgres"
       FLASK_DB_PORT: "5432"
     depends_on:
-      - db
+      - postgres
 
   backend2:
     build:
@@ -44,7 +44,7 @@ services:
       FLASK_DB_HOST: "postgres"
       FLASK_DB_PORT: "5432"
     depends_on:
-      - db
+      - postgres
 
   frontend:
     build:
