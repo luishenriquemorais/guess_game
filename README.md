@@ -10,7 +10,7 @@ Este projeto contém a infraestrutura completa para subir uma aplicação web co
 
 | Serviço              | Função                                                                 |
 |----------------------|------------------------------------------------------------------------|
-| `db`                 | Banco de dados PostgreSQL para persistência de dados                   |
+| `postgres`                 | Banco de dados PostgreSQL para persistência de dados                   |
 | `backend1`, `backend2` | Aplicações Flask que processam a lógica da API                        |
 | `frontend`           | Container NGINX que serve a aplicação React **e** faz proxy para o backend |
 
