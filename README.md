@@ -84,7 +84,7 @@ docker-compose up -d
 - Edite o docker-compose.yaml, alterando a imagem:
 
 ```bash
-db:
+postgres:
   image: postgres:17-alpine  # nova versão desejada
 ```
 
