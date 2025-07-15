@@ -100,11 +100,3 @@ docker-compose up -d
 ```bash
 docker-compose down
 ```
-
-## Observações Finais
-
-Para alterar o IP de API do Backend que o Frontend utiliza, ajuste no arquivo Dockerfile.frontend, conforme exemplo abaixo
-
-```bash
-ARG REACT_APP_BACKEND_URL=http://localhost:5000
-```
